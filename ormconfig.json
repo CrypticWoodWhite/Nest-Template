@@ -1,0 +1,10 @@
+{
+  "type": "mysql",
+  "host": "HOST",
+  "port": 3306,
+  "username": "USERNAME",
+  "password": "PASSWORD",
+  "database": "DB_NAME",
+  "entities": ["src/**/**.entity{.ts,.js}"],
+  "synchronize": true
+}
